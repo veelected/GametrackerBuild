@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbackground"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_mercmissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#4A5CFF"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:id="@+id/tv_mercmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowRadius="1"
+            android:text="MercMissions"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_shopDeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#4A5CFF"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:id="@+id/tv_shopdeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowRadius="1"
+            android:text="ShopDeeds"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_monsters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#4A5CFF"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:id="@+id/tv_monster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowRadius="1"
+            android:text="Monsters"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_hiddenQuest"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#4A5CFF"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:id="@+id/tv_hiddenquest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowRadius="1"
+            android:text="HiddenQuest"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_secretArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#4A5CFF"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:id="@+id/tv_secretarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowRadius="1"
+            android:text="SecretAreas"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_blade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#4A5CFF"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:id="@+id/tv_blade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowRadius="1"
+            android:text="Blades"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_expMan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#4A5CFF"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:id="@+id/tv_expman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:shadowColor="@color/black"
+            android:shadowDx="15"
+            android:shadowRadius="1"
+            android:text="Exp-Man"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
