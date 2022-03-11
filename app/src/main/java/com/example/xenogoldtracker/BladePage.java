@@ -33,25 +33,26 @@ public class BladePage extends AppCompatActivity {
     }
 
     private void setBladeInfo() {
-        bladeListArrayList.add(new bladeList("Bridget","Tank"));
-        bladeListArrayList.add(new bladeList("Mythra","DPS"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
-        bladeListArrayList.add(new bladeList("Bridget","Tank"));
-        bladeListArrayList.add(new bladeList("Mythra","DPS"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
-        bladeListArrayList.add(new bladeList("Bridget","Tank"));
-        bladeListArrayList.add(new bladeList("Mythra","DPS"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
-        bladeListArrayList.add(new bladeList("Bridget","Tank"));
-        bladeListArrayList.add(new bladeList("Mythra","DPS"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));  bladeListArrayList.add(new bladeList("Bridget","Tank"));
-        bladeListArrayList.add(new bladeList("Mythra","DPS"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade","ROLE"));
+        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
+        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
+        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
+        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
+        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
+        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
+        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
 
 
     }
