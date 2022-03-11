@@ -15,12 +15,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
         cv_mercMissions = findViewById(R.id.cv_mercmissions);
-        cv_blade = findViewById(R.id.cv_shopDeed);
+        cv_blade = findViewById(R.id.cv_blade);
         cv_monster = findViewById(R.id.cv_monsters);
         cv_hiddenQuest = findViewById(R.id.cv_hiddenQuest);
         cv_SecretArea = findViewById(R.id.cv_secretArea);
         cv_expMan = findViewById(R.id.cv_expMan);
+        cv_shopDeed = findViewById(R.id.cv_shopDeed);
+
 
 
         cv_mercMissions.setOnClickListener(new View.OnClickListener() {
