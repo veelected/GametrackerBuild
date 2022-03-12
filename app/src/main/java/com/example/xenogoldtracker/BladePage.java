@@ -32,28 +32,32 @@ public class BladePage extends AppCompatActivity {
         recyclerView_Blade.setAdapter(adapter);
     }
 
-    private void setBladeInfo() {
-        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
-        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
-        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
-        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
-        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("Bridget", "Tank"));
-        bladeListArrayList.add(new bladeList("Mythra", "DPS"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
-        bladeListArrayList.add(new bladeList("2Blade", "ROLE"));
 
+
+
+
+    private void setBladeInfo() {
+        bladeListArrayList.add(new bladeList("Finch", "Tank"));
+        bladeListArrayList.add(new bladeList("Perceval", "Tank"));
+        bladeListArrayList.add(new bladeList("Poppibuster", "Tank"));
+        bladeListArrayList.add(new bladeList("Floren", "Healer"));
+        bladeListArrayList.add(new bladeList("Dagas", "Attacker"));
+        bladeListArrayList.add(new bladeList("Azami", "Attacker"));
+        bladeListArrayList.add(new bladeList("Nim", "Healer"));
+        bladeListArrayList.add(new bladeList("Electra", "Shield Hammer"));
+        bladeListArrayList.add(new bladeList("Perun", "Attacker"));
+        bladeListArrayList.add(new bladeList("Adenine", "Healer"));
+        bladeListArrayList.add(new bladeList("Newt", "Tank"));
+        bladeListArrayList.add(new bladeList("Gorg", "Attacker"));
+        bladeListArrayList.add(new bladeList("Kora", "Healer"));
+        bladeListArrayList.add(new bladeList("Vess", "Bitball"));
+        bladeListArrayList.add(new bladeList("Boreas", "Bitball"));
+        bladeListArrayList.add(new bladeList("Vale", "Attacker"));
+        bladeListArrayList.add(new bladeList("Wulfric", "Attacker"));
+        bladeListArrayList.add(new bladeList("Herald", "Attacker"));
+        bladeListArrayList.add(new bladeList("Godfrey", "Tank"));
+        bladeListArrayList.add(new bladeList("Zenobia", "Attacker"));
+        bladeListArrayList.add(new bladeList("Praxis", "Attacker"));
 
     }
 }
